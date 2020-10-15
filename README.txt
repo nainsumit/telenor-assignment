@@ -1,4 +1,4 @@
-1. Source code and docker tar is attached.
+1. Download link to docker fil.
 2. Load docker image and run:
 docker load -i search-products.tar
 docker run -p 8084:8084 search-products
