@@ -1,0 +1,1 @@
+INSERT INTO PRODUCT(id,type,properties,price,address) SELECT NEXT VALUE FOR HIBERNATE_SEQUENCE, * FROM CSVREAD('classpath:data.csv');
